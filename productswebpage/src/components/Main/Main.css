@@ -1,0 +1,14 @@
+.main-container{
+    background: linear-gradient(90deg, #96E9FB 0%, #ABECD6 100%);
+ border-radius: 20px;
+ display: flex;
+ justify-content: space-around;
+}
+
+
+.m-c-left-container{
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+}
