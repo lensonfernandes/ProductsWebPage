@@ -1,10 +1,15 @@
 import React from 'react'
+// import { createContext } from 'react'
 import logo from './../../assets/navbar-brand.png'
 import loginbutton from './../../assets/loginbutton.png'
 import './Header.css'
+import { useState, useContext } from "react";
+
+
 
 
 function Header() {
+  // const  cartCount = useContext(cartCount);
   return (
     <div className="header-container">
         <img src={logo}  alt="logo here" />
@@ -32,7 +37,7 @@ function Header() {
                   </clipPath>
                   </defs>
           </svg>
-           <span> 1</span>
+           {/* <span> {cartCount}</span> */}
           </span>
           <span>
           <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">

@@ -1,17 +1,17 @@
 import React from 'react'
 import './Card.css'
 
-function Card({imgSrc, name, oldPrice, newPrice}) {
+function Card(props) {
   return (
     <div className='card-item-outer'>
-        <img className="img-preview"  />
-        <h3 className='item-title'> {name}</h3>
+        <img className="img-preview"  src={props.details.productImage} />
+        <h3 className='item-title'> {props.details.productName}</h3>
         <div className='card-item-stats'>
             
             <span className='img-span'></span>
 
             <div>
-                <p>{oldPrice}</p> <span>{newPrice}</span>
+                <p>{props.details.oldPrice}</p> <span>{props.details.newPrice}</span>
             </div>
         </div>
         <button className='add-button'>ADD TO CART</button>  
