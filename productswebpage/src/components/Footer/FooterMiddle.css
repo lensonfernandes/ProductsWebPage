@@ -1,0 +1,15 @@
+.footer-middle-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.f-m-left-container{
+    display: flex;
+    justify-content: space-around;
+   
+
+}
+
+.f-m-left-container li{
+    list-style-type: none;
+}

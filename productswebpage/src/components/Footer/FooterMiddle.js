@@ -1,4 +1,5 @@
 import React from 'react'
+import './FooterMiddle.css'
 
 function FooterMiddle() {
   return (
