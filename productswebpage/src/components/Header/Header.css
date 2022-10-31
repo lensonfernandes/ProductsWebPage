@@ -1,0 +1,27 @@
+
+/* *{
+    background-color: bisque;
+} */
+
+.header-container{
+    display: flex;
+    gap:15px;
+    justify-content: space-between;
+    padding: 0px 38px;
+}
+
+.header-container ul{
+    display: flex;
+    gap:15px
+}
+.header-container li{
+    list-style: none;
+    
+}
+
+.navbar-right-options{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  
+}
