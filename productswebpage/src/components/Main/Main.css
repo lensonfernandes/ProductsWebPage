@@ -3,12 +3,26 @@
  border-radius: 20px;
  display: flex;
  justify-content: space-around;
+ align-items: center;
+ margin: 60px;
 }
 
 
 .m-c-left-container{
- display: flex;
- flex-direction: column;
- justify-content: center;
- align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-start;
+    padding: 0px;
+    gap: 30px;
+    
+    width: 548px;
+    height: 316px;
+    
+    
+    /* Inside auto layout */
+    
+    /* flex: none;
+    order: 0;
+    flex-grow: 0; */
 }
