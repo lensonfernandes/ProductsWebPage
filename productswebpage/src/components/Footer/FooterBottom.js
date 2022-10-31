@@ -4,7 +4,7 @@ import './FooterBottom.css'
 function FooterBottom() {
   return (
     <div className='footer-bottom-container'>
-        Made With ❤️ at Acciojob
+        <p>Made With ❤️ at Acciojob</p>
        
     </div>
   )

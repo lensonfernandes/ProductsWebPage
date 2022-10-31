@@ -16,6 +16,21 @@
 }
 .header-container li{
     list-style: none;
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 24px;
+/* identical to box height, or 171% */
+
+text-align: center;
+letter-spacing: 0.2px;
+
+/* second-text-color */
+
+color: #737373;
+
+
     
 }
 
@@ -24,4 +39,22 @@
     justify-content: space-around;
     align-items: center;
   
+}
+
+.navbar-right-options span{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+
+text-align: center;
+letter-spacing: 0.2px;
+
+/* primary-color */
+
+color: #23A6F0;
+
+
 }
