@@ -68,6 +68,8 @@ color: #252B42;
     /* or 150% */
     
     letter-spacing: 0.2px;
+    width:75%;
+    text-align: left;
     
     /* second-text-color */
     
@@ -80,4 +82,27 @@ color: #252B42;
     border-radius: 5px;
     width: 221px;
 height: 62px;
+border-style: none;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 32px;
+/* identical to box height, or 133% */
+
+text-align: center;
+letter-spacing: 0.1px;
+
+/* light-text-color */
+
+color: #FFFFFF;
+
+}
+
+
+.m-c-right-container{
+    background: url('./../../assets/Ellipse\ 26.png') no-repeat center;
+    overflow: visible;
+    /* background-image: url('./../../assets/EllipseSmall.png'); */
 }

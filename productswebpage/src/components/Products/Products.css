@@ -12,3 +12,17 @@
     width: 366px;
     height: 307px;
 }
+
+
+.products-container{
+    display: flex;
+}
+
+.nav-heading{
+    /* background-color: #23A6F0; */
+    text-align: left;
+    /* padding: 20px; */
+    margin:40px 80px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36px;
+}

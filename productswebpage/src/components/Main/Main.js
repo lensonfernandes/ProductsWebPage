@@ -10,10 +10,14 @@ function Main() {
         <h1>NEW COLLECTION</h1>
         <h4>We know how large objects will act, 
 but things on a small scale.</h4>
-        <button><h3>SHOP NOW</h3></button>
+        <button>SHOP NOW</button>
       </div>
       <div className='m-c-right-container'>
-        <img src={mainImage} alt="Girl Image" />
+        {/* <svg width="501" height="488" viewBox="0 0 501 488" fill="none" xmlns="http://www.w3.org/2000/svg">
+           <circle cx="250.42" cy="237.941" r="249.941" fill="white"/>
+      </svg> */}
+
+        <img src={mainImage}  />
       </div>
     </div>
   )
