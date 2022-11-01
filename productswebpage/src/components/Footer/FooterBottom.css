@@ -12,6 +12,9 @@
     height: 74px;
     background: #FAFAFA;
     width: 100%;
+    display: flex;
+    align-items: center;
+
     /* position: relative;
     left:195px; */
 
@@ -19,7 +22,6 @@
 }
 
 
-/* .footer-bottom-container p{
-    position: relative;
-    left:195px;
-} */
+.footer-bottom-container p{
+   margin-left: 10vw;
+} 
