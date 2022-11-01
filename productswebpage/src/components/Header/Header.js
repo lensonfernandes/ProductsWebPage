@@ -21,7 +21,7 @@ function Header() {
           <li>About</li>
           <li>Blog</li>
           <li>Contact</li>
-          <li>Pages</li>
+          <li className='pages'>Pages</li>
         </ul>
         <span className='navbar-right-options'>
           <img  src={loginbutton} alt="login button"/>
