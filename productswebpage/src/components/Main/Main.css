@@ -106,3 +106,7 @@ color: #FFFFFF;
     overflow: visible;
     /* background-image: url('./../../assets/EllipseSmall.png'); */
 }
+
+.main-heading-h1{
+    text-align: left;
+}
