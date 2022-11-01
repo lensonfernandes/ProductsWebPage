@@ -8,21 +8,27 @@ import Main from './components/Main/Main';
  import FooterBottom from './components/Footer/FooterBottom';
 //  import {createContext} from 'react'
 //  import React from 'react'
+import { Provider } from 'react-redux'
+import store from './store'
 
 function App() {
   // let  [cartCount, setCartCount] = React.useState(0);
   // const CartContext = createContext()
   return (
     // <CartContext.Provider value={cartCount}>
+    <Provider store={store} >
     <div className="App">
+      
       <Header />
+      
       <Main />
       <Products />
       <FooterTop />
       <FooterMiddle />
       <FooterBottom /> 
     </div>
-    // </CartContext.Provider>
+    </Provider>
+    
   );
 }
 

@@ -4,12 +4,14 @@ import logo from './../../assets/navbar-brand.png'
 import loginbutton from './../../assets/loginbutton.png'
 import './Header.css'
 import { useState, useContext } from "react";
+import {useSelector} from 'react-redux'
 
 
 
 
 function Header() {
   // const  cartCount = useContext(cartCount);
+  const cartCount = useSelector(state => state.cartCount)
   return (
     <div className="header-container">
         <img src={logo}  alt="logo here" />
@@ -37,7 +39,8 @@ function Header() {
                   </clipPath>
                   </defs>
           </svg>
-           {/* <span> {cartCount}</span> */}
+          { cartCount > 0 ? cartCount : '0' }
+           {/* <span> count : {0} {count?.count}</span> */}
           </span>
           <span>
           <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
